@@ -28,19 +28,19 @@ Environment requirements:
 Environment definition should follow the Gymnasium structure, which includes the basic methods. You can use RL Environment demo as a base code.
 
 def __init__:
-  # Initializes the class
-  # Define action and observation space
+  #Initializes the class
+  #Define action and observation space
 
 def step:
-  # Executes one timestep within the environment
-  # Input to the function is an action
+  #Executes one timestep within the environment
+  #Input to the function is an action
 
 def reset:
-  # Resets the state of the environment to an initial state
+  #Resets the state of the environment to an initial state
   
 def render:
-  # Visualizes the environment
-  # Any form like vector representation or visualizing using matplotlib is sufficient
+  #Visualizes the environment
+  #Any form like vector representation or visualizing using matplotlib is sufficient
   
 3. Run a random agent for at least 10 timesteps to show that the environment logic is defined correctly. Print the current state, chosen action, reward and return your grid world visualization for each step.
 
