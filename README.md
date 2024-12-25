@@ -1,4 +1,4 @@
-**Part I: Define an RL Environment**
+# **Part I: Define an RL Environment**
 
 In this part, we will define a grid-world reinforcement learning environment as an MDP. While building an RL environment, you need to define possible states, actions, rewards and other parameters.
 
@@ -45,7 +45,7 @@ def render:
 3. Run a random agent for at least 10 timesteps to show that the environment logic is defined correctly. Print the current state, chosen action, reward and return your grid world visualization for each step.
 
 
-**Part II: Implement SARSA**
+# **Part II: Implement SARSA**
 
 In this part, we will implement the SARSA (State-Action-Reward-State-Action) algorithm and apply it to solve the environment defined in Part I. SARSA is an on-policy reinforcement learning algorithm where the agent updates its Q-values based on the current state, action, reward, and next state-action pair. It balances exploration and exploitation to optimize learning.
 
@@ -73,7 +73,7 @@ Try at least 3 different values for each of the parameters that you choose.
 5. Provide the evaluation results (refer to Step 2) for the setup the returns the best results.
 
 
-**Part III: Implement N-step Double Q-learning**
+# **Part III: Implement N-step Double Q-learning**
 
 Apply the n-step Double Q-learning algorithm to solve the environment defined in Part I.
 
